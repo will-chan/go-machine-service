@@ -13,13 +13,13 @@ type ExternalHandler struct {
     
     Description string `json:"description,omitempty"`
     
+    ExternalHandlerProcessConfigs []interface{} `json:"externalHandlerProcessConfigs,omitempty"`
+    
     Kind string `json:"kind,omitempty"`
     
     Name string `json:"name,omitempty"`
     
     Priority int `json:"priority,omitempty"`
-    
-    ProcessNames []string `json:"processNames,omitempty"`
     
     RemoveTime string `json:"removeTime,omitempty"`
     
